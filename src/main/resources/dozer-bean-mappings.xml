@@ -1,0 +1,21 @@
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+	<configuration>
+		<date-format>yyyy-MM-dd HH:mm:ss</date-format>
+	</configuration>
+
+
+	<mapping>
+		<class-a>org.assignment.estr.form.WorkForm</class-a>
+		<class-b>org.assignment.estr.entity.WorkEntity</class-b>
+		<field>
+			<a date-format="yyyy-MM-dd HH:mm:ss">startingDate</a>
+			<b>startingDate</b>
+		</field>
+		<field>
+			<a date-format="yyyy-MM-dd HH:mm:ss">endingDate</a>
+			<b>endingDate</b>
+		</field>
+	</mapping>
+</mappings>
